@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
             val password = passwordEditText.text.toString()
 
             if (username == "admin" && password == "123456") {
-                val intent = Intent(this, PageAdminActivity::class.java)
+                val intent = Intent(this, PageAdmin::class.java)
                 startActivity(intent)
                 finish()
             } else {
